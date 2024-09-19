@@ -1,12 +1,10 @@
 package org.example.Contoller;
-
 import org.example.Entity.Bank_Account;
 import org.example.Service.BankService;
 import org.example.database.database;
-
 import java.sql.SQLException;
 import java.util.Scanner;
-
+//Code Done by 
 public class BankController {
 
     public static void main(String[] args) throws SQLException {
@@ -23,7 +21,6 @@ public class BankController {
         BankService ba=new BankService();
         Bank_Account ba1 = new Bank_Account();
         long AcNo;
-
         if (option == 1) {
             // Existing user code
             int i;
